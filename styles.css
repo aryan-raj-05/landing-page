@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header-container {
+    background-color: #1f2937;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+.head-content {
+    max-width: 1200px;
+    padding: 50px 0 50px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-card {
+    text-wrap: wrap;
+    width: 600px;
+}
+
+.left-card > h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.left-card p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-holder {
+    flex: 2;
+    background-color: gray;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Random Information Part */
+.info {
+    padding: 100px 150px;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2 {
+    padding: 24px;
+}
+
+.card-container {
+    display: flex;
+    gap: 64px;
+}
+
+.card {
+    width: 160px;
+    height: 160px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+}
+
+.item {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+}
+
+/* Inspiring Quote Section */
+.insipiring-quote {
+    background-color: #e5e7eb;
+    min-height: 250px;
+    padding: 50px 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign up section */
+.blue-box {
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .blue-box {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.call {
+    background-color: #3882f6;
+    padding: 25px;
+    min-width: 800px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.head {
+    font-weight: 900;
+}
+
+.desc {
+    font-size: small;
+}
+
+.sign-up {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 8px 24px;
+}
+
+/* Footer */
+.footer {
+    padding: 28px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
