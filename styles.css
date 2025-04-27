@@ -80,7 +80,7 @@ ul {
 
 /* Random Information Part */
 .info {
-    padding: 100px 150px;
+    margin: 100px 150px;
     max-height: 250px;
     display: flex;
     flex-direction: column;
@@ -89,6 +89,7 @@ ul {
 }
 
 .info h2 {
+    font-weight: bold;
     padding: 24px;
 }
 
@@ -98,6 +99,7 @@ ul {
 }
 
 .card {
+    margin-bottom: 6px;
     width: 160px;
     height: 160px;
     border: 2px solid cyan;
@@ -106,6 +108,8 @@ ul {
 
 .item {
     width: 160px;
+    text-align: center;
+    text-wrap: pretty;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,6 +128,19 @@ ul {
     align-items: center;
 }
 
+.quote {
+    text-wrap: pretty;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+    margin-left: auto;
+}
+
 /* Sign up section */
 .blue-box {
     min-height: 350px;
@@ -131,13 +148,6 @@ ul {
     justify-content: center;
     align-items: center;
 }
-
-/* .blue-box {
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .call {
     background-color: #3882f6;
